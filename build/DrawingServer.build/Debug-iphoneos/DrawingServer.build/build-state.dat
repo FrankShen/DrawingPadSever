@@ -1,0 +1,440 @@
+TDrawingServer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/Info.plist DrawingServer/DrawingServer-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist
+cProcessPCH /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.pth DrawingServer/DrawingServer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.o /Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.o /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.o /Users/BuG/Project/DrawingServer/DrawingServer/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.o /Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.o /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.o /Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer normal armv7
+cGenerateDSYMFile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer
+cCompileStoryboard /Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/MainStoryboard.storyboard
+cCopyStringsFile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj/InfoPlist.strings DrawingServer/en.lproj/InfoPlist.strings
+cCpResource DrawingServer/background.jpg build/Debug-iphoneos/DrawingServer.app/background.jpg
+cProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision
+cTouch /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent
+cCodeSign /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000005010DE7100000000000001A7
+t1343282801
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000005010DE7100000000000001E5
+t1343282801
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005010DE72000000000032E0E0
+t1343282802
+s3334368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005010DE7200000000003AE430
+t1343282802
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005010DE73000000000052C940
+t1343282803
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005010DE7200000000000CE180
+t1343282802
+s844160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005010DE730000000000798EA0
+t1343282803
+s7966368
+
+N/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision
+c0000000050152DBA0000000000002827
+t1343565242
+s10279
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServer-Prefix.pch
+c00000000501D03E80000000000000149
+t1344078824
+s329
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.h
+c00000000501D0F2D00000000000001BB
+t1344081709
+s443
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m
+c00000000501D0F2D00000000000008D4
+t1344081709
+s2260
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.h
+c00000000501D0F2D0000000000000180
+t1344081709
+s384
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m
+c00000000501D10460000000000000578
+t1344081990
+s1400
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.h
+c000000004FFEF4FC000000000000BAAD
+t1342108924
+s47789
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m
+c000000004FFEF4FC000000000002FA60
+t1342108924
+s195168
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/GestureView.h
+c00000000501D0F2D0000000000000188
+t1344081709
+s392
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m
+c00000000501D0F2D000000000000029B
+t1344081709
+s667
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.h
+c00000000501D0F2D0000000000000146
+t1344081709
+s326
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m
+c00000000501D0F2D00000000000004D0
+t1344081709
+s1232
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/background.jpg
+c00000000501D0897000000000003E78D
+t1344080023
+s255885
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/InfoPlist.strings
+c00000000501D03E8000000000000002D
+t1344078824
+s45
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/MainStoryboard.storyboard
+c00000000501D128F0000000000001CBB
+t1344082575
+s7355
+
+N/Users/BuG/Project/DrawingServer/DrawingServer/main.m
+c00000000501D03E80000000000000168
+t1344078824
+s360
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+t1344082562
+s340
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM
+t1344082521
+s102
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer
+t1344082562
+s263424
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/Info.plist
+t1344082489
+s1109
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/PkgInfo
+t1344082489
+s8
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist
+t1344082489
+s485
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/background.jpg
+t1344082491
+s255885
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision
+t1344082492
+s10279
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj/InfoPlist.strings
+t1344082491
+s42
+
+N/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj/MainStoryboard.storyboardc
+t1344082561
+s238
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent
+t1344082492
+s428
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServer.LinkFileList
+c00000000501D12390000000000000329
+t1344082489
+s809
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.o
+t1344082490
+s82528
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.o
+t1344082490
+s75036
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.o
+t1344082491
+s451508
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.o
+t1344082490
+s66328
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.o
+t1344082490
+s72676
+
+N/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.o
+t1344082490
+s3288
+
+N/var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.pth
+t1344082490
+s4029440
+
+NDrawingServer/DrawingServer-Info.plist
+c00000000501D061E00000000000004A7
+t1344079390
+s1191
+
+CBuild AST from /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m
+r0
+
+CBuild AST from /Users/BuG/Project/DrawingServer/DrawingServer/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies51d8dd0f4acdb541^1cb1de0f4acdb541^---0#1#0#--18"Check dependencies36"D8D0235F-5133-423E-B329-6D51D8CE5A6C-
+
+CCodeSign /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+s365775376.056746
+e365775376.201446
+r1
+xCodeSign
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+o/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Debug-iphoneos/DrawingServer.appe9990e104acdb541^b09233104acdb541^-101"/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/0000000000000000^800"CodeSign build/Debug-iphoneos/DrawingServer.app    cd /Users/BuG/Project/DrawingServer    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 240356a4fa4b374472e30f46cce7b10a898d6db9 --resource-rules=/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist --entitlements /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app36"16E3025C-2C70-4816-81EA-91AF7F03F425-
+
+CCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.o /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775290.552013
+e365775290.667855
+r1
+xCompileC
+xbuild/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.o
+x/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.mb77f8dba49cdb541^9012abba49cdb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m0000000000000000^3335"CompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.o DrawingServer/DrawingServerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.d --serialize-diagnostics /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerAppDelegate.m -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerAppDelegate.o36"0DB5FA6E-50BB-4A9E-8769-37C110F93CBF-
+
+CCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.o /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775290.552052
+e365775290.666789
+r1
+xCompileC
+xbuild/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.o
+x/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m99828dba49cdb541^0abdaaba49cdb541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m0000000000000000^3353"CompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.o DrawingServer/DrawingServerViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.d --serialize-diagnostics /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServerViewController.m -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServerViewController.o36"CF2F0637-3247-4C69-BF47-320B8F80644B-
+
+CCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.o /Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775290.552042
+e365775291.088598
+r1
+xCompileC
+xbuild/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.o
+x/Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m13828dba49cdb541^c0ae16bb49cdb541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m0000000000000000^3275"CompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.o DrawingServer/GCDAsyncSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.d --serialize-diagnostics /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/GCDAsyncSocket.m -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GCDAsyncSocket.o36"36EA41A8-86D0-4C93-BA07-F21961DD828B-
+
+CCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.o /Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775290.552070
+e365775290.619583
+r1
+xCompileC
+xbuild/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.o
+x/Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m1b808dba49cdb541^529d9eba49cdb541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m0000000000000000^3257"CompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.o DrawingServer/GestureView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.d --serialize-diagnostics /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/GestureView.m -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/GestureView.o36"A60D0FD8-8E0F-46DE-8C36-7D0428C30E42-
+
+CCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.o /Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775290.552060
+e365775290.663822
+r1
+xCompileC
+xbuild/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.o
+x/Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.mfa7f8dba49cdb541^71ffa9ba49cdb541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m0000000000000000^3317"CompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.o DrawingServer/NetworkViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.d --serialize-diagnostics /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/NetworkViewController.m -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/NetworkViewController.o36"27BF68A2-C2CA-4D49-BB2B-922D2494DBD9-
+
+CCompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.o /Users/BuG/Project/DrawingServer/DrawingServer/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775290.552024
+e365775290.618846
+r1
+xCompileC
+xbuild/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.o
+x/Users/BuG/Project/DrawingServer/DrawingServer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/BuG/Project/DrawingServer/DrawingServer/main.m7c818dba49cdb541^c26c9eba49cdb541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/main.m0000000000000000^3215"CompileC build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.o DrawingServer/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -include /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch -MMD -MT dependencies -MF /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/main.m -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/main.o36"D612C44E-78D9-48A4-89C7-66492B29033E-
+
+CCompileStoryboard /Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/MainStoryboard.storyboard
+s365775375.940895
+e365775376.010629
+r1
+xCompileStoryboard
+x/Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard DrawingServer/en.lproj/MainStoryboard.storyboard28eef00f4acdb541^28ba02104acdb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/MainStoryboard.storyboard0000000000000000^871"CompileStoryboard DrawingServer/en.lproj/MainStoryboard.storyboard    cd /Users/BuG/Project/DrawingServer    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj/MainStoryboard.storyboardc /Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"4636E7BD-2914-46D9-A092-28CCAE1AA3FD-
+
+CCopyStringsFile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj/InfoPlist.strings DrawingServer/en.lproj/InfoPlist.strings
+s365775291.567511
+e365775291.584618
+r1
+xCopyStringsFile
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj/InfoPlist.strings
+xDrawingServer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy DrawingServer/en.lproj/InfoPlist.strings605991bb49cdb541^bdc795bb49cdb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/en.lproj/InfoPlist.strings0000000000000000^566"CopyStringsFile build/Debug-iphoneos/DrawingServer.app/en.lproj/InfoPlist.strings DrawingServer/en.lproj/InfoPlist.strings    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/en.lproj -- DrawingServer/en.lproj/InfoPlist.strings36"28D59D61-ED65-42B6-B52C-A23E7ED88B0A-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist
+s365775289.586563
+e365775289.595016
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/DrawingServer.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist183e96b949cdb541^435598b949cdb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist000000000080d041^726"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app36"0364664F-9F93-48B8-B49A-40F4CEB75341-
+
+CCpResource DrawingServer/background.jpg build/Debug-iphoneos/DrawingServer.app/background.jpg
+s365775291.567514
+e365775291.571231
+r1
+xCpResource
+xDrawingServer/background.jpg
+xbuild/Debug-iphoneos/DrawingServer.app/background.jpg
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/DrawingServer.app/background.jpga75891bb49cdb541^19ff92bb49cdb541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/background.jpg000000000080d041^568"CpResource DrawingServer/background.jpg build/Debug-iphoneos/DrawingServer.app/background.jpg    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/BuG/Project/DrawingServer/DrawingServer/background.jpg /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app36"C4E06D4C-915C-4EC0-AB8D-145090C1F916-
+
+CGenerateDSYMFile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer
+s365775375.900919
+e365775375.932721
+r1
+xGenerateDSYMFile
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Generating /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM81b1e60f4acdb541^54c7ee0f4acdb541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM/0000000000000000^608"GenerateDSYMFile build/Debug-iphoneos/DrawingServer.app.dSYM build/Debug-iphoneos/DrawingServer.app/DrawingServer    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer -o /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app.dSYM36"16D60C83-C5E1-4657-8C26-F062B2FBAC37-
+
+CLd /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer normal armv7
+s365775291.105012
+e365775291.519362
+r1
+xLd
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Link /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer9a271bbb49cdb541^7ff584bb49cdb541^---0#0#0#--1087"Ld build/Debug-iphoneos/DrawingServer.app/DrawingServer normal armv7    cd /Users/BuG/Project/DrawingServer    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos -filelist /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/Objects-normal/armv7/DrawingServer.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -framework Security -framework CFNetwork -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/DrawingServer36"56C61922-7B4E-4DA9-9C4C-E5717E6F4498-
+
+CProcessInfoPlistFile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/Info.plist DrawingServer/DrawingServer-Info.plist
+s365775289.586575
+e365775289.591768
+r1
+xProcessInfoPlistFile
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/Info.plist
+xDrawingServer/DrawingServer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process DrawingServer/DrawingServer-Info.pliste63d96b949cdb541^db4d98b949cdb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServer-Info.plist0000000000000000^750"ProcessInfoPlistFile build/Debug-iphoneos/DrawingServer.app/Info.plist DrawingServer/DrawingServer-Info.plist    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DrawingServer/DrawingServer-Info.plist -genpkginfo /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/ResourceRules.plist -o /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/Info.plist36"2702609C-F0E0-43B8-92EA-64A72EC388E9-
+
+CProcessPCH /Users/BuG/Library/Developer/Xcode/DerivedData/DrawingServer-dapgwuenddteirhetqzlrypvbzhw/Index/PrecompiledHeaders/DrawingServer-Prefix-gidvibnjbqjffxeqybojtilhckls_ast/DrawingServer-Prefix.pch.pth DrawingServer/DrawingServer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.pth DrawingServer/DrawingServer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365775289.609848
+e365775290.538881
+r1
+xProcessPCH
+x/var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.pth
+xDrawingServer/DrawingServer-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile DrawingServer/DrawingServer-Prefix.pchde3d9cb949cdb541^9b8d8dba49cdb541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/BuG/Project/DrawingServer/DrawingServer/DrawingServer-Prefix.pch0000000000000000^3315"ProcessPCH /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.pth DrawingServer/DrawingServer-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/BuG/Project/DrawingServer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-generated-files.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-own-target-headers.hmap -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-all-target-headers.hmap -iquote /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer-project-headers.hmap -I/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources/armv7 -I/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DerivedSources -F/Users/BuG/Project/DrawingServer/build/Debug-iphoneos --serialize-diagnostics /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.dia -c /Users/BuG/Project/DrawingServer/DrawingServer/DrawingServer-Prefix.pch -o /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lh/9d_w0g8s7c38xfgc6zsm4zq00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DrawingServer-Prefix-fakhvbvxshlpaifemmtvrvfytgte/DrawingServer-Prefix.pch.d36"8D29A5B4-34CD-40B9-A423-875B0D71E2C6-
+
+CProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision
+s365775292.411091
+e365775292.414006
+r1
+xProcessProductPackaging
+x/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection196"ProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision4b5669bc49cdb541^3bfc69bc49cdb541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision0000000000000000^670"ProcessProductPackaging "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/BuG/Library/MobileDevice/Provisioning Profiles/312A5565-FD60-46FF-AA88-4ACDB4F0D705.mobileprovision" -o /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app/embedded.mobileprovision36"E6E266C6-7D77-436F-B88C-9A5BD1D30F6E-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent
+s365775292.437478
+e365775292.440421
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection225"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent240f70bc49cdb541^a1bf70bc49cdb541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent000000000080d041^754"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/BuG/Project/DrawingServer/build/DrawingServer.build/Debug-iphoneos/DrawingServer.build/DrawingServer.xcent36"6868679B-EEBD-4332-A389-E16D61B6DB6B-
+
+CTouch /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+s365775376.034687
+e365775376.040713
+r1
+xTouch
+x/Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app39ee08104acdb541^c26c0a104acdb541^---0#0#0#--367"Touch build/Debug-iphoneos/DrawingServer.app    cd /Users/BuG/Project/DrawingServer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/BuG/Project/DrawingServer/build/Debug-iphoneos/DrawingServer.app36"7C1BE0AE-E65E-4F28-88B1-E3EFF7282C71-
+

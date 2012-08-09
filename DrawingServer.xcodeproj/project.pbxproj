@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5369F215D2300500BD58B5 /* DrawingPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5369F115D2300500BD58B5 /* DrawingPadView.m */; };
+		9B5369FE15D29B4000BD58B5 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5369FD15D29B2700BD58B5 /* GCDAsyncSocket.m */; };
+		9BADF02A15D0C60F0065866B /* iconx72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BADF02915D0C60F0065866B /* iconx72.png */; };
 		9BF9222015CD3B6800D59386 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9221F15CD3B6800D59386 /* UIKit.framework */; };
 		9BF9222215CD3B6800D59386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9222115CD3B6800D59386 /* Foundation.framework */; };
 		9BF9222415CD3B6800D59386 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9222315CD3B6800D59386 /* CoreGraphics.framework */; };
@@ -18,12 +21,16 @@
 		9BF9223F15CD402600D59386 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9223E15CD402600D59386 /* background.jpg */; };
 		9BF9224215CD424100D59386 /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9224115CD424100D59386 /* NetworkViewController.m */; };
 		9BF9224515CD442500D59386 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9224415CD442500D59386 /* GestureView.m */; };
-		9BF9224615CD46CC00D59386 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9223D15CD3D0800D59386 /* GCDAsyncSocket.m */; };
 		9BF9225015CD473500D59386 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9224F15CD473500D59386 /* CFNetwork.framework */; };
 		9BF9225215CD473A00D59386 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF9225115CD473A00D59386 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B5369F015D2300500BD58B5 /* DrawingPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingPadView.h; sourceTree = "<group>"; };
+		9B5369F115D2300500BD58B5 /* DrawingPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingPadView.m; sourceTree = "<group>"; };
+		9B5369FC15D29B2700BD58B5 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		9B5369FD15D29B2700BD58B5 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		9BADF02915D0C60F0065866B /* iconx72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconx72.png; path = ../iconx72.png; sourceTree = "<group>"; };
 		9BF9221B15CD3B6800D59386 /* DrawingServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9221F15CD3B6800D59386 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9BF9222115CD3B6800D59386 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +44,6 @@
 		9BF9223215CD3B6800D59386 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9BF9223415CD3B6800D59386 /* DrawingServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingServerViewController.h; sourceTree = "<group>"; };
 		9BF9223515CD3B6800D59386 /* DrawingServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingServerViewController.m; sourceTree = "<group>"; };
-		9BF9223C15CD3D0800D59386 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		9BF9223D15CD3D0800D59386 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		9BF9223E15CD402600D59386 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		9BF9224015CD424100D59386 /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
 		9BF9224115CD424100D59386 /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
@@ -96,16 +101,19 @@
 		9BF9222515CD3B6800D59386 /* DrawingServer */ = {
 			isa = PBXGroup;
 			children = (
+				9BADF02915D0C60F0065866B /* iconx72.png */,
 				9BF9223E15CD402600D59386 /* background.jpg */,
-				9BF9223C15CD3D0800D59386 /* GCDAsyncSocket.h */,
-				9BF9223D15CD3D0800D59386 /* GCDAsyncSocket.m */,
 				9BF9222E15CD3B6800D59386 /* DrawingServerAppDelegate.h */,
 				9BF9222F15CD3B6800D59386 /* DrawingServerAppDelegate.m */,
 				9BF9223115CD3B6800D59386 /* MainStoryboard.storyboard */,
+				9B5369FC15D29B2700BD58B5 /* GCDAsyncSocket.h */,
+				9B5369FD15D29B2700BD58B5 /* GCDAsyncSocket.m */,
 				9BF9224315CD442500D59386 /* GestureView.h */,
 				9BF9224415CD442500D59386 /* GestureView.m */,
 				9BF9223415CD3B6800D59386 /* DrawingServerViewController.h */,
 				9BF9223515CD3B6800D59386 /* DrawingServerViewController.m */,
+				9B5369F015D2300500BD58B5 /* DrawingPadView.h */,
+				9B5369F115D2300500BD58B5 /* DrawingPadView.m */,
 				9BF9224015CD424100D59386 /* NetworkViewController.h */,
 				9BF9224115CD424100D59386 /* NetworkViewController.m */,
 				9BF9222615CD3B6800D59386 /* Supporting Files */,
@@ -179,6 +187,7 @@
 				9BF9222A15CD3B6800D59386 /* InfoPlist.strings in Resources */,
 				9BF9223315CD3B6800D59386 /* MainStoryboard.storyboard in Resources */,
 				9BF9223F15CD402600D59386 /* background.jpg in Resources */,
+				9BADF02A15D0C60F0065866B /* iconx72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF9224615CD46CC00D59386 /* GCDAsyncSocket.m in Sources */,
+				9B5369FE15D29B4000BD58B5 /* GCDAsyncSocket.m in Sources */,
 				9BF9222C15CD3B6800D59386 /* main.m in Sources */,
 				9BF9223015CD3B6800D59386 /* DrawingServerAppDelegate.m in Sources */,
 				9BF9223615CD3B6800D59386 /* DrawingServerViewController.m in Sources */,
 				9BF9224215CD424100D59386 /* NetworkViewController.m in Sources */,
 				9BF9224515CD442500D59386 /* GestureView.m in Sources */,
+				9B5369F215D2300500BD58B5 /* DrawingPadView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +322,7 @@
 				9BF9223B15CD3B6800D59386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

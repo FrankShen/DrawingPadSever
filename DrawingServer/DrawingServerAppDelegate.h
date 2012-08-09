@@ -12,6 +12,8 @@
 #define CONFIRM_CONNECTION_TAG 1000
 #define START_TRANSPORT 1001
 #define TRANSPORT_CONPLETE 1002
+#define PULL_IMAGES 9999
+#define DATA_LENTH 1004
 
 @interface DrawingServerAppDelegate : UIResponder <UIApplicationDelegate>
 

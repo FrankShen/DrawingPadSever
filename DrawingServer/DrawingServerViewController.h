@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "DrawingServerAppDelegate.h"
 #import "GestureView.h"
+#import "DrawingPadView.h"
 @interface DrawingServerViewController : UIViewController <GestureViewDelegate>
 @property (weak, nonatomic) IBOutlet GestureView *gestureView;
+@property (weak, nonatomic) IBOutlet DrawingPadView *drawingPad;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) UIImage *image;
 @end

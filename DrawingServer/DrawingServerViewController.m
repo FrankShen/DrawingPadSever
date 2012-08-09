@@ -14,7 +14,8 @@
 
 @implementation DrawingServerViewController
 @synthesize gestureView;
-@synthesize imageView;
+@synthesize drawingPad;
+@synthesize image = _image;
 
 - (void)viewDidLoad
 {
@@ -23,6 +24,7 @@
     DrawingServerAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     appDelegate.socket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
     self.gestureView.backgroundColor = [UIColor clearColor];
+    self.drawingPad.backgroundColor = [UIColor clearColor];
     self.gestureView.delegate = self;
     UISwipeGestureRecognizer *ges = [[UISwipeGestureRecognizer alloc] initWithTarget:self.gestureView action:@selector(swipe:)];
     ges.numberOfTouchesRequired = 2;
@@ -36,7 +38,7 @@
 - (void)viewDidUnload
 {
     [self setGestureView:nil];
-    [self setImageView:nil];
+    [self setDrawingPad:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -64,6 +66,7 @@
     ((GCDAsyncSocket *)[appDelegate.clientSocket lastObject]).delegate = self;
     [(GCDAsyncSocket *)[appDelegate.clientSocket lastObject] writeData:[[NSString stringWithFormat:@"%d",appDelegate.clientSocket.count-1] dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:CONFIRM_CONNECTION_TAG];
     [(GCDAsyncSocket *)[appDelegate.clientSocket lastObject] readDataWithTimeout:-1 tag:START_TRANSPORT];
+    //[(GCDAsyncSocket *)[appDelegate.clientSocket lastObject] readDataWithTimeout:-1 tag:PULL_IMAGES];
 }
 
 - (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag
@@ -82,9 +85,24 @@
         int socketIdx = [recieve intValue];
         //.....
         UIImage *image = [[UIImage alloc] initWithData:(NSData *)[appDelegate.imagePool objectAtIndex:socketIdx]];
-        self.imageView.image = image;
+        
+        [self.drawingPad refreshImageWithNewImage:image];
+        
         
         [(GCDAsyncSocket *)[appDelegate.clientSocket objectAtIndex:socketIdx] readDataWithTimeout:-1 tag:START_TRANSPORT];
+    } else if (tag == PULL_IMAGES){
+        NSString *recieve = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        int socketIdx = [recieve intValue];
+        GCDAsyncSocket *socket = [appDelegate.clientSocket objectAtIndex:socketIdx];
+        
+        UIGraphicsBeginImageContext(self.drawingPad.bounds.size);
+        [self.drawingPad.layer renderInContext:UIGraphicsGetCurrentContext()];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+
+        [socket writeData:UIImagePNGRepresentation(image) withTimeout:-1 tag:PULL_IMAGES];
+        [socket readDataWithTimeout:-1 tag:START_TRANSPORT];
+
     } else {
         [(NSMutableData *)[appDelegate.imagePool objectAtIndex:tag] appendData:data];
         
